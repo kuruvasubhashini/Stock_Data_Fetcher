@@ -5,7 +5,7 @@ pipeline {
                 /* Cloning the repository to our workspace */
                 steps {
                 checkout scm
-                        
+                     git branch: 'main', url: 'https://github.com/kuruvasubhashini/Stock_Data_Fetcher.git'   
                 }
            }
            stage('Build Image') {
