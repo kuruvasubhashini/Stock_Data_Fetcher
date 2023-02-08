@@ -16,7 +16,7 @@ pipeline {
            }
            stage('Run Image') {
                 steps {
-                sh 'docker run -d -p 8000:8000 --name streamlitdemo streamlit:v1'
+                sh 'docker run -d -p 8000:8000 --name streamlitdemo1 streamlit:v1'
                 }
            }
            stage('Testing'){
