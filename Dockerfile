@@ -1,9 +1,9 @@
 FROM python:3.7
 
-CMD mkdir /Stock_Data_Fetcher
-COPY . /Stock_Data_Fetcher
+CMD mkdir /app
+COPY . /app
 
-WORKDIR /Stock_Data_Fetcher
+WORKDIR /app
 
 EXPOSE 8501
 
