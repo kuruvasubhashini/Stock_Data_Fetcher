@@ -1,9 +1,9 @@
 FROM python:3.7
 
-CMD mkdir /streamlit
-COPY . /streamlit
+CMD mkdir /app
+COPY . /app
 
-WORKDIR /streamlit
+WORKDIR /app
 
 EXPOSE 8501
 
