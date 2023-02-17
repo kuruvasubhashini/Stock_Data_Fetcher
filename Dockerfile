@@ -5,7 +5,7 @@ COPY . /app
 
 WORKDIR /app
 
-EXPOSE 8501
+EXPOSE 8502
 
 RUN pip3 install -r requirements.txt
 
